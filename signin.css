@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'cavier';
+    src: url(./Fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'cavierb';
+    src: url(./Fonts/CaviarDreams_Bold.ttf);
+}
+
+@font-face {
+    font-family: 'cavierit';
+    src: url(./Fonts/CaviarDreams_Italic.ttf);
+}
+
+@font-face {
+    font-family: cavierbit;
+    src: url(./Fonts/CaviarDreams_BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: khandRlr;
+    src: url(./Fonts/Khand-Regular.ttf);
+}
+
+@font-face {
+    font-family: KhandSemi;
+    src: url(./Fonts/Khand-Semibold.ttf);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'cavierb', sans-serif;
+    font-size: 120px;
+}
+
+h4 {
+    color: rgb(255, 255, 255);
+    font-family: 'cavierb', sans-serif;
+    font-size: 60px;
+}
+p{
+    font-family: 'cavierb', sans-serif;
+    color: white;
+}
+a:link {
+    color: #7b00ff;
+    text-decoration: none;
+  }
+  
+
+  a:visited {
+    color: #7b00ff;
+  }
+  
+  
+  a:hover {
+    color: rgb(255, 52, 177);
+  }
+  
+
+  a:active {
+    color: rgb(255, 0, 89);
+  }
+body {
+    background-image: linear-gradient(to bottom right, rgb(246, 246, 246) , rgb(255, 255, 255));
+    background-image: url(./Images/pexels-pixabay-534216.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    align-items: center;
+    background-attachment: fixed;
+    font-family: 'cavierb', sans-serif;
+    
+}
+#bod{
+
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(0, 0, 0, 0.732);
+    border-radius: 12px;
+    border: 1px solid rgba(15, 15, 15, 0.03);
+border-radius: 7%;
+box-shadow: 0 0 50px 2px #090909
+
+}
+.btn-success{
+    background: linear-gradient(to bottom,  #8d17e8 50%,#8d17e8 50%);
+}
+.btn-success:active{
+    background: linear-gradient(to bottom,  #17e86e 50%,#17e86e 50%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#267c99', endColorstr='#007299',GradientType=0 ); /* IE6-9 */
+}
